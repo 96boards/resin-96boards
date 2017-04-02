@@ -1,4 +1,4 @@
-CONNECTIVITY_FIRMWARES_append = " \
+CONNECTIVITY_FIRMWARES = " \
     linux-firmware-wl12xx \
     linux-firmware-wl18xx \
 "
