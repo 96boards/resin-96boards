@@ -8,8 +8,11 @@
 #TARGET_REPOSITORY ?= ""
 #TARGET_TAG ?= ""
 
-# HiKey specific variables
-#FOO_BAR = "1"
+# 96boards specific variables
+#CMDLINE_hikey = "console=ttyAMA3,115200n8 root=/dev/${CMDLINE_ROOT_EMMC} rootwait ro quiet efi=noruntime"
+CMDLINE_hikey = "console=ttyAMA3,115200n8 root=/dev/${CMDLINE_ROOT_SDCARD} rootwait ro quiet efi=noruntime"
+#CMDLINE_hikey960 = "console=ttyAMA6,115200n8 root=/dev/${CMDLINE_ROOT_EMMC} rootwait ro quiet efi=noruntime"
+CMDLINE_hikey960 = "console=ttyAMA6,115200n8 root=/dev/${CMDLINE_ROOT_SDCARD} rootwait ro quiet efi=noruntime"
 
 # Set this to 1 if development image is desired
 #DEVELOPMENT_IMAGE = "1"
