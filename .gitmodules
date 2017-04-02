@@ -1,0 +1,28 @@
+[submodule "layers/poky"]
+	path = layers/poky
+	url = https://git.yoctoproject.org/git/poky
+	branch = morty
+[submodule "layers/meta-openembedded"]
+	path = layers/meta-openembedded
+	url = https://github.com/openembedded/meta-openembedded.git
+	branch = morty
+[submodule "layers/oe-meta-go"]
+	path = layers/oe-meta-go
+	url = https://github.com/mem/oe-meta-go.git
+[submodule "layers/meta-resin"]
+	path = layers/meta-resin
+	url = https://github.com/resin-os/meta-resin.git
+[submodule "resin-yocto-scripts"]
+	path = resin-yocto-scripts
+	url = https://github.com/resin-os/resin-yocto-scripts.git
+[submodule "tests/autohat"]
+	path = tests/autohat
+	url = https://github.com/resin-io/autohat.git
+[submodule "layers/meta-96boards"]
+	path = layers/meta-96boards
+	url = https://github.com/96boards/meta-96boards.git
+	branch = morty
+[submodule "layers/meta-linaro"]
+	path = layers/meta-linaro
+	url = https://git.linaro.org/openembedded/meta-linaro.git
+	branch = morty
