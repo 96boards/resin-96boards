@@ -1,0 +1,3 @@
+search.fs_label @RESIN_ROOTA_FS_LABEL root
+set prefix=($root)'/boot/grub'
+configfile $prefix/grub.cfg
