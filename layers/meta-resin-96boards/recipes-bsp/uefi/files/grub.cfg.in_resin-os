@@ -1,0 +1,9 @@
+set default="0"
+set timeout=1
+
+menuentry '@DISTRO @DISTRO_VERSION (HiKey)' {
+    search.fs_label @RESIN_BOOT_FS_LABEL root
+    set root=($root)
+    linux /boot/@KERNEL_IMAGETYPE console=tty0 @CMDLINE
+    devicetree /boot/hi6220-hikey.dtb
+}
