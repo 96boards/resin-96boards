@@ -4,5 +4,6 @@ IMAGE_FSTYPES_append_hikey960 = " resinos-img"
 RESIN_IMAGE_BOOTLOADER_hikey = "grub"
 RESIN_BOOT_PARTITION_FILES_hikey = " \
     grubaa64.efi:/EFI/BOOT/ \
-    Image-${MACHINE}.bin:/Image \
+    ${KERNEL_IMAGETYPE}-${MACHINE}.bin:/boot/${KERNEL_IMAGETYPE} \
+    ${KERNEL_IMAGETYPE}-hi6220-hikey.dtb:/boot/hi6220-hikey.dtb \
 "
