@@ -9,8 +9,8 @@
 #TARGET_TAG ?= ""
 
 # 96boards specific variables
-CMDLINE_hikey = "console=ttyAMA3,115200n8 root=/dev/${CMDLINE_ROOT_SDCARD} rootwait ro quiet efi=noruntime"
-CMDLINE_hikey960 = "console=ttyAMA6,115200n8 root=/dev/${CMDLINE_ROOT_SDCARD} rootwait ro quiet efi=noruntime"
+CMDLINE_hikey = "console=ttyAMA3,115200n8 root=/dev/${CMDLINE_ROOT_SDCARD} rootwait rw quiet efi=noruntime"
+CMDLINE_hikey960 = "console=ttyAMA6,115200n8 root=/dev/${CMDLINE_ROOT_SDCARD} rootwait rw quiet efi=noruntime"
 
 # Set this to 1 if development image is desired
 #DEVELOPMENT_IMAGE = "1"
